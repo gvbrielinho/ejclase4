@@ -1,0 +1,64 @@
+.title-main {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header-image {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 10px 0;
+
+}
+
+.header-image img {
+    max-width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.underlined-text {
+    text-decoration: line-through;
+}
+
+.back-color-green {
+    background-color: lightgreen;
+    padding: 0.2em;
+    border-radius: 0.2em;
+    box-decoration-break: clone;
+}
+
+.back-color-yellow {
+    background-color: yellow;
+}
+
+.text-rd {
+    color: red;
+}
+
+.text-lb {
+    color: lightseagreen;
+    text-decoration: underline;
+
+}
+
+.back-lb {
+    background-color: lightseagreen;
+}
+
+.color-bwn {
+    color: lightcoral;
+}
+
+footer {
+    margin-top: auto;
+}
